@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Specializations Frodo v2
+## Objectives
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We will rebuild Frodo slowly component by component. These are the main goals of this exercise:
+1. Class vs. Functional component: Start with class components and then refactor to functional components 
+2. React Hooks: Learn how to write and use hooks (useState and useEffect will be our main 2 to focus on)  
+3. Add in backend (Express, Node, Sequelize) and implement API integration.
 
-## Available Scripts
 
-In the project directory, you can run:
+ # Instructions:
+ Week by week, the tasks will be added and updated in this README.md file. Students can simply run the command `git pull` and this will update with latest challenge or task.
 
-### `npm start`
+ ## Getting started
+Clone down the repo to your local machine. After git cloning the repo to your local machine, students should run the following commands:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. `cd react_frodo`
+2. `npm install`
+3. `npm run start`
+ ## Week 1
+ 1. Create a new folder under `src` called `components`
+ 2. Create a new file in the `components` folder called `Login.js` 
+ 3. Inside `Login.js`, create a class component called `Login` and have it render all the necesary components to replicate the Frodo login screen (Hint: Think Parent -> Child so an analogy would be Form element -> Input element)<br/>(Hint Hint: Use Chrome DevTools to inspect the page)
+ 4. Initialize state inside the `Login` component with the attributes `userName` & `password` set to empty strings. 
+ 5. Write a `handleChange` method inside the `Login` component that tracks the state of the userName and password variables as the user is interacting with the input fields. For example, if the user is typing in the username then we can monitor the state of this input field and capture the user's keystrokes.
+ 6. Once done, students will create a pull request on GitHub (students will be shown how to do this!) and if approved, I will merge the code and students can all view the new site as it grows.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+ Keep in mind:
+ 1. Submit button shouldn't be functional at this point (we will build out that functionality later). The button (if written correctly...) will cause the page to reset upon submission and the input fields are clear.
+ 2. Styling is done inline and should be brief and to the point. (Hint: React inline styling is `style: {{ marginBottom: '10px'}}` so look up documentation if your confused!)
+<br/><br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***Week 2 placeholder***
 
-### `npm run build`
+***Week 3 placeholder***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***Week 4 placeholder***
+   
+***Week 5 placeholder***
